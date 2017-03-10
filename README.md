@@ -6,8 +6,15 @@ The Carebot application is currently hosted on Amazon Web Services, please see O
 After the CarebotTracker code added to IJNet, users can ask more information via the Slack's #apptesting channel, such as the "hello" command for summary data, see the link for details: https://thecarebot.github.io/getting-started-with-Carebot/
 # Instruction
 Please follow the steps below for making changes to Carebot or simply wake her up.
+
 -- ssh ubuntu@54.88.85.11    password: please ask Oren
+
 -- cd carebot  (your folder name)
+
 -- source carebot/bin/activate
+
 -- source dev.env
--- nohup python carebot.py  (this step is to make carebot less “sleepy,” to stop the bot later, use command “ ps -ef ” to view    all running processes and choose our python carebot.py process’s PID to kill it. For example: kill #####
+
+-- nohup python carebot.py  
+
+This step is to make carebot less “sleepy,” to stop the bot later, use command “ ps -ef ” to view all running processes and choose our python carebot.py process’s PID to kill it. For example: kill #####
