@@ -1,5 +1,5 @@
 # Carebot
-NPR's Carebot is designed for collecting metric data of stories' performence, for details, visit Carebot's GitHub page:https://github.com/thecarebot/carebot and its blog: https://thecarebot.github.io/
+NPR's Carebot is designed for collecting metric data of stories' performance, for details, visit Carebot's GitHub page:https://github.com/thecarebot/carebot and its blog: https://thecarebot.github.io/
 The codes are configured based on IJNet information, but can be changed for any website which has Google Analytics inside terminal.
 The Carebot application is currently hosted on Amazon Web Services, please see Oren for login information.
 # Note
